@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -8,23 +9,41 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  
+background:  #eee9ea;
 }
 
 header{
-    background: #333;
+    
+  background:  #3b141c;
+    
     color: #fff;
     padding: 15px;
 }
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo{
+  color: rgb(243, 241, 241);
+  font-size: 30px;
+  font-weight: 900;
+  cursor:pointer;
+
+}
 nav a{
-    color: #fff;
+  
+    color: #e6dfdf;
     text-decoration: none;
     margin: 0 15px;
 }
 
 
 nav a:hover{
-    text-decoration: underline;
+    
+    color: rgb(122, 73, 73);
     
 }
 
